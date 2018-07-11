@@ -1,4 +1,5 @@
-def fizzbuzz(int)
+def fizzbuzz
+  int= gets.chomp
   loop do
     until int == 0
 if int % 3 == 0
