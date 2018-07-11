@@ -1,5 +1,5 @@
-def fizzbuzz
-  int= gets.chomp
+def fizzbuzz(15)
+
   loop do
     until int == 0
 int = int - 1
