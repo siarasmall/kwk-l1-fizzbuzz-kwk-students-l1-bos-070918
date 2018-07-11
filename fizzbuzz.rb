@@ -1,7 +1,7 @@
 def fizzbuzz(int)
 
   loop do
-    until int == 0
+    while int > 0
 int = int - 1
 if int % 3 == 0
   if int % 5 == 0
