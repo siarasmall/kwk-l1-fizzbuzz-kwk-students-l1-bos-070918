@@ -1,4 +1,4 @@
-def fizzbuzz(15)
+def fizzbuzz(int)
 
   loop do
     until int == 0
