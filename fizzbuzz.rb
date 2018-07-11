@@ -16,4 +16,4 @@ end #loop
 end #def
 end 
 
-puts fizzbuzz
+puts fizzbuzz(15)
