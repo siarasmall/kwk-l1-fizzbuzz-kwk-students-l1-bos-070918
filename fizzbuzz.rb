@@ -16,4 +16,4 @@ end #until
 end #loop
 end #def
 
-fizzbuzz(gets.chomp)
+fizzbuzz(45)
