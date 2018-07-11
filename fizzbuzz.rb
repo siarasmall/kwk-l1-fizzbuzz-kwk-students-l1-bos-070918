@@ -12,8 +12,8 @@ elsif int % 5 == 0
   return "Buzz"
 else return int
 end #if statement
+end #until
 end #loop
 end #def
-end 
 
 puts fizzbuzz(15)
