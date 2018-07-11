@@ -2,7 +2,7 @@ def fizzbuzz
   int= gets.chomp
   loop do
     until int == 0
-    int= int - 1
+    int= int-1
 if int % 3 == 0
   if int % 5 == 0
     return "FizzBuzz"
