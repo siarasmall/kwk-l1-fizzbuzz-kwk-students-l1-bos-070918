@@ -2,6 +2,7 @@ def fizzbuzz
   int= gets.chomp
   loop do
     until int == 0
+    int= int - 1
 if int % 3 == 0
   if int % 5 == 0
     return "FizzBuzz"
@@ -11,7 +12,6 @@ elsif int % 5 == 0
   return "Buzz"
 else return int
 end #if statement
-int= int - 1
 end #loop
 end #def
 end 
